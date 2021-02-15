@@ -81,10 +81,35 @@ a:focus {
   color: white;
 }
 
-div.content {
+.content {
   margin-left: 200px;
-  padding: 1px 16px;
   height: 1000px;
+}
+
+.main-content {
+  padding-left: 20px;
+}
+
+footer {
+  font-size: 20px;
+  width: 100%;
+  line-height: 100px;
+  height: 100px;
+  background-color: #494d55;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 700px) {
