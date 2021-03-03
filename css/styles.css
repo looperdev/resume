@@ -29,6 +29,15 @@ a:focus {
   text-decoration: none;
 }
 
+#contact_top ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 .card {
   margin-left: 200px;
   background-color: #e5e5e5;
@@ -91,11 +100,11 @@ a:focus {
 }
 
 footer {
-  font-size: 20px;
   width: 100%;
   line-height: 100px;
   height: 100px;
   background-color: #494d55;
+  align-content: center;
 }
 
 footer ul {
@@ -114,6 +123,7 @@ footer a {
 
 @media screen and (max-width: 700px) {
   .sidebar {
+    display: none;
     text-align: center;
     width: 100%;
     height: auto;
