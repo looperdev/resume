@@ -34,8 +34,12 @@ a:focus {
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
+}
+
+#contact_top ul a {
+  color: #494d55;
 }
 
 .card {
@@ -70,7 +74,7 @@ hr {
 
 .profile_image {
   border-radius: 50%;
-  border: 2px solid #494d55;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 70%) inset;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -126,7 +130,7 @@ footer ul {
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
 }
 
